@@ -1,0 +1,18 @@
+{
+  "name": "hole-log",
+  "version": "0.0.0",
+  "description": "A node logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "logger"
+  ],
+  "author": "Alexis Aguirre <alexis.agdev@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.7.0"
+  }
+}
