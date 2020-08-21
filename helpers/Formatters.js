@@ -7,7 +7,7 @@ function formatDate(date) {
     const second = `0${date.getSeconds()}`.slice(-2);
     const millis = `00${date.getMilliseconds()}`.slice(-3);
 
-    return `${year}-${month}-${day} ${hour}:${minute}:${second}:${millis}`;
+    return `${year}-${month}-${day} ${hour}:${minute}:${second}.${millis}`;
 }
 
 function fileDateFormat(date) {
