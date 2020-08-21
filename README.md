@@ -1,6 +1,12 @@
 # HOLE-LOG
 A simple node logger with 3 channels (default, warn and error)
 
+# Installation
+
+```bash
+npm i hole-log
+```
+
 # Usage
 - Without config (defaults to 'logs' folder):
 
@@ -23,7 +29,7 @@ holeLog.error("this is an error");
 
 ![](images/result.jpg)
 
-# How it works?
+# What Hole-Log do?
 
 Hole-Log will generate a .log file inside the configuration folder for each day, with the format 'logfile__YYYY-MM-DD_HH-mm-ss-SSS.log'
 
