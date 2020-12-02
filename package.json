@@ -1,6 +1,6 @@
 {
   "name": "hole-log",
-  "version": "0.0.2",
+  "version": "0.0.2-rev1",
   "description": "A node logger",
   "main": "index.js",
   "scripts": {
