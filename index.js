@@ -10,14 +10,14 @@ function init(config = {}) {
     }
 
     return {
-        log: (text) => {
-            write(text, 'default', `${folder}/${formatFileName(new Date())}`);
+        log: (anyobject) => {
+            write(anyobject, 'default', `${folder}/${formatFileName(new Date())}`);
         },
-        warn: (text) => {
-            write(text, 'WARN', `${folder}/${formatFileName(new Date())}`);
+        warn: (anyobject) => {
+            write(anyobject, 'WARN', `${folder}/${formatFileName(new Date())}`);
         },
-        error: (text) => {
-            write(text, 'ERROR', `${folder}/${formatFileName(new Date())}`);
+        error: (anyobject) => {
+            write(anyobject, 'ERROR', `${folder}/${formatFileName(new Date())}`);
         },
     };
 }

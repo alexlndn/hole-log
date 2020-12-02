@@ -1,6 +1,6 @@
 {
   "name": "hole-log",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node logger",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   "author": "Alexis Aguirre <alexis.agdev@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.7.0"
+    "eslint": "^7.7.0",
+    "mocha": "^8.2.1"
   }
 }
