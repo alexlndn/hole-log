@@ -27,7 +27,7 @@ holeLog.error("this is an error");
 ```
 ## Results:
 
-![](images/result.jpg)
+![](https://raw.githubusercontent.com/alexlndn/hole-log/master/images/result.jpg)
 
 # What Hole-Log do?
 
